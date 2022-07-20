@@ -1,0 +1,52 @@
+.drive {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  align-items: center;
+}
+.left {
+  width: 100%;
+  height: 100%;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right p {
+  padding: 1rem 0;
+  color: #333;
+}
+.right span {
+  color: #593cfb;
+}
+.right button {
+  background: #593cfb;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+}
+.right button:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  .drive {
+    grid-template-columns: 1fr;
+  }
+  .right {
+    padding: 1rem 2rem;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+  }
+  .left img {
+    width: 80%;
+  }
+}

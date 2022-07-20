@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  background: #121212;
+}
+.footer-container {
+  max-width: 1040px;
+  margin: auto;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container button {
+  background: #593cfb;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: all 0.35s ease-in-out;
+}
+.footer-container button:hover {
+  opacity: 0.8;
+}
